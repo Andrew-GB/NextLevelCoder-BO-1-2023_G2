@@ -1,4 +1,12 @@
-# clase Dinosaur, metodo constructor, update, draw pass
+class Dinosaur:
+    def __init__(self):
+        pass
 
-# investigar que son Sprites
-# investigar herencia en programacion
+
+    def update():
+        pass
+
+
+
+    def draw():
+        pass
