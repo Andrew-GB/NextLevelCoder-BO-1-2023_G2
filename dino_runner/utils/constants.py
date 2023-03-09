@@ -8,6 +8,8 @@ SCREEN_WIDTH = 1100
 FPS = 30
 IMG_DIR = os.path.join(os.path.dirname(__file__), "..", "assets")
 
+
+
 # Assets Constants
 ICON = pygame.image.load(os.path.join(IMG_DIR, "DinoWallpaper.png"))
 
@@ -70,3 +72,13 @@ BG = pygame.image.load(os.path.join(IMG_DIR, 'Other/Track.png'))
 HEART = pygame.image.load(os.path.join(IMG_DIR, 'Other/SmallHeart.png'))
 
 DEFAULT_TYPE = "default"
+
+COLORS = {
+    "black": (0,0,0),
+    "white": (255, 255, 255),
+    "green": (0, 255, 0),
+    "red": (255, 0, 0),
+    "blue": (0, 0, 255),
+    "light blue": (173, 216, 230),
+
+}

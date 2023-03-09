@@ -71,3 +71,6 @@ class Dinosaur(Sprite):
             self.dino_rect.y = self.POS_Y
             self.dino_jumping = False
             self.jump_vel = self.JUMP_VEL
+
+            
+            

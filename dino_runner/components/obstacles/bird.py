@@ -1,5 +1,4 @@
 from dino_runner.components.obstacles.obstacle import Obstacle
-import random
 
 class Bird(Obstacle):
     def __init__(self, image_list):
@@ -7,6 +6,8 @@ class Bird(Obstacle):
         super().__init__(image_list, self.type)
         self.rect.y = 250
         self.anim_time = 0.0
+        
+        
 
     def update(self, game_speed, obstacles):
         super().update(game_speed, obstacles)
